@@ -45,11 +45,39 @@
       "budget_type": "GRP"
     }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "segments": [{"name":"F_25", "type":"Demographic", "provider":"Nielsen", "size": 7620000, "isUniversal":true, "genderCode": "F", "minAge": 2, "maxAge":5},
+    {"name":"F_6_8", "type":"Demographic", "provider":"Nielsen", "size": 5730000, "isUniversal":true, "genderCode": "F", "minAge": 6, "maxAge": 8},
+    {"name":"F_9_11", "type":"Demographic", "provider":"Nielsen", "size": 5930000, "isUniversal":true, "genderCode": "F", "minAge": 9, "maxAge":11},
+    {"name":"F_12_14", "type":"Demographic", "provider":"Nielsen", "size": 5940000, "isUniversal":true, "genderCode": "F", "minAge": 12, "maxAge":14},
+    {"name":"F_15_17", "type":"Demographic", "provider":"Nielsen", "size": 6030000, "isUniversal":true, "genderCode": "F", "minAge": 15, "maxAge":17},
+    {"name":"F_18_20", "type":"Demographic", "provider":"Nielsen", "size": 6340000, "isUniversal":true, "genderCode": "F", "minAge": 18, "maxAge":20},
+    {"name":"F_21_24", "type":"Demographic", "provider":"Nielsen", "size": 8010000, "isUniversal":true, "genderCode": "F", "minAge": 21, "maxAge":24},
+    {"name":"F_25_29", "type":"Demographic", "provider":"Nielsen", "size": 10000000, "isUniversal":true, "genderCode": "F", "minAge": 25, "maxAge":29},
+    {"name":"F_30_34", "type":"Demographic", "provider":"Nielsen", "size": 10210000, "isUniversal":true, "genderCode": "F", "minAge": 30, "maxAge":34},
+    {"name":"F_35_39", "type":"Demographic", "provider":"Nielsen", "size": 9960000, "isUniversal":true, "genderCode": "F", "minAge": 35, "maxAge":39},
+    {"name":"F_40_44", "type":"Demographic", "provider":"Nielsen", "size": 9900000, "isUniversal":true, "genderCode": "F", "minAge": 40, "maxAge":44},
+    {"name":"F_45_49", "type":"Demographic", "provider":"Nielsen", "size": 10210000, "isUniversal":true, "genderCode": "F", "minAge": 45, "maxAge":49},
+    {"name":"F_50_54", "type":"Demographic", "provider":"Nielsen", "size": 10710000, "isUniversal":true, "genderCode": "F", "minAge": 50, "maxAge":54},
+    {"name":"F_55_64", "type":"Demographic", "provider":"Nielsen", "size": 21070000, "isUniversal":true, "genderCode": "F", "minAge": 55, "maxAge":64},
+    {"name":"F_65_999", "type":"Demographic", "provider":"Nielsen", "size": 26660000, "isUniversal":true, "genderCode": "F", "minAge": 65, "maxAge":999},
+    {"name":"M_2_5", "type":"Demographic", "provider":"Nielsen", "size": 7960000, "isUniversal":true, "genderCode": "M", "minAge": 2, "maxAge":5},
+    {"name":"M_6_8", "type":"Demographic", "provider":"Nielsen", "size": 5980000, "isUniversal":true, "genderCode": "M", "minAge": 6, "maxAge":8},
+    {"name":"M_9_11", "type":"Demographic", "provider":"Nielsen", "size": 6190000, "isUniversal":true, "genderCode": "M", "minAge": 9, "maxAge":11},
+    {"name":"M_12_14", "type":"Demographic", "provider":"Nielsen", "size": 6190000, "isUniversal":true, "genderCode": "M", "minAge": 12, "maxAge":14},
+    {"name":"M_15_17", "type":"Demographic", "provider":"Nielsen", "size": 6260000, "isUniversal":true, "genderCode": "M", "minAge": 15,"maxAge": 17},
+    {"name":"M_18_20", "type":"Demographic", "provider":"Nielsen", "size": 6490000, "isUniversal":true, "genderCode": "M", "minAge": 18, "maxAge":20},
+    {"name":"M_21_24", "type":"Demographic", "provider":"Nielsen", "size": 8190000, "isUniversal":true, "genderCode": "M", "minAge": 21, "maxAge":24},
+    {"name":"M_25_29", "type":"Demographic", "provider":"Nielsen", "size": 9990000, "isUniversal":true, "genderCode": "M", "minAge": 25, "maxAge":29},
+    {"name":"M_30_34", "type":"Demographic", "provider":"Nielsen", "size": 10060000, "isUniversal":true, "genderCode": "M", "minAge": 30, "maxAge":34},
+    {"name":"M_35_39", "type":"Demographic", "provider":"Nielsen", "size": 9660000, "isUniversal":true, "genderCode": "M", "minAge": 35, "maxAge":39},
+    {"name":"M_40_44", "type":"Demographic", "provider":"Nielsen", "size": 9530000, "isUniversal":true, "genderCode": "M", "minAge": 40, "maxAge":44},
+    {"name":"M_45_49", "type":"Demographic", "provider":"Nielsen", "size": 9770000, "isUniversal":true, "genderCode": "M", "minAge": 45, "maxAge":49},
+    {"name":"M_50_54", "type":"Demographic", "provider":"Nielsen", "size": 10170000, "isUniversal":true, "genderCode": "M", "minAge": 50, "maxAge":54},
+    {"name":"M_55_64", "type":"Demographic", "provider":"Nielsen", "size": 19450000, "isUniversal":true, "genderCode": "M", "minAge": 55, "maxAge":64},
+    {"name":"M_65_999", "type":"Demographic", "provider":"Nielsen", "size": 21460000, "isUniversal":true, "genderCode": "M", "minAge": 65, "maxAge":999}
   ],
   "profile": {
     "name": "typicode"
   }
 }
+
