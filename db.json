@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "New Flight Set",
-      "description": "",
+      "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
       "flights": [
           {
               "id": 1,
@@ -25,7 +25,7 @@
     {
       "id": 2,
       "name": "New Flight Set 2",
-      "description": "",
+      "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
       "flights": [
           {
               "id": 1,
