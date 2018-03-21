@@ -45,7 +45,7 @@
       "budget_type": "GRP"
     }
   ],
-  "segments": [{"name":"F_25", "type":"Demographic", "provider":"Nielsen", "size": 7620000, "isUniversal":true, "genderCode": "F", "minAge": 2, "maxAge":5},
+  "segments": [{"name":"F_2_5", "type":"Demographic", "provider":"Nielsen", "size": 7620000, "isUniversal":true, "genderCode": "F", "minAge": 2, "maxAge":5},
     {"name":"F_6_8", "type":"Demographic", "provider":"Nielsen", "size": 5730000, "isUniversal":true, "genderCode": "F", "minAge": 6, "maxAge": 8},
     {"name":"F_9_11", "type":"Demographic", "provider":"Nielsen", "size": 5930000, "isUniversal":true, "genderCode": "F", "minAge": 9, "maxAge":11},
     {"name":"F_12_14", "type":"Demographic", "provider":"Nielsen", "size": 5940000, "isUniversal":true, "genderCode": "F", "minAge": 12, "maxAge":14},
