@@ -1,48 +1,48 @@
 {
   "flightsets": [
     {
-            "id": 1,
-            "name": "New Flight Set",
-            "description": "",
-            "flights": [
-                {
-                    "id": 1,
-                    "start_date": "2018-03-21T02:33:51.607Z",
-                    "end_date": "2018-04-21T02:33:51.607Z",
-                    "budget_amount": 10000,
-                    "budget_type": "USD"
-                },
-                {
-                    "id": 2,
-                    "start_date": "2018-04-21T02:33:51.607Z",
-                    "end_date": "2018-05-21T02:33:51.607Z",
-                    "budget_amount": 10000,
-                    "budget_type": "USD"
-                },
-            ],
-            "budget_type": "USD"
+      "id": 1,
+      "name": "New Flight Set",
+      "description": "",
+      "flights": [
+          {
+              "id": 1,
+              "start_date": "2018-03-21T02:33:51.607Z",
+              "end_date": "2018-04-21T02:33:51.607Z",
+              "budget_amount": 10000,
+              "budget_type": "USD"
+          },
+          {
+              "id": 2,
+              "start_date": "2018-04-21T02:33:51.607Z",
+              "end_date": "2018-05-21T02:33:51.607Z",
+              "budget_amount": 10000,
+              "budget_type": "USD"
+          }
+      ],
+      "budget_type": "USD"
     },
     {
-            "id": 2,
-            "name": "New Flight Set 2",
-            "description": "",
-            "flights": [
-                {
-                    "id": 1,
-                    "start_date": "2018-06-21T02:33:51.607Z",
-                    "end_date": "2018-07-21T02:33:51.607Z",
-                    "budget_amount": 2000,
-                    "budget_type": "GRP"
-                },
-                {
-                    "id": 2,
-                    "start_date": "2018-07-21T02:33:51.607Z",
-                    "end_date": "2018-08-21T02:33:51.607Z",
-                    "budget_amount": 3000,
-                    "budget_type": "GRP"
-                }
-            ],
-            "budget_type": "GRP"
+      "id": 2,
+      "name": "New Flight Set 2",
+      "description": "",
+      "flights": [
+          {
+              "id": 1,
+              "start_date": "2018-06-21T02:33:51.607Z",
+              "end_date": "2018-07-21T02:33:51.607Z",
+              "budget_amount": 2000,
+              "budget_type": "GRP"
+          },
+          {
+              "id": 2,
+              "start_date": "2018-07-21T02:33:51.607Z",
+              "end_date": "2018-08-21T02:33:51.607Z",
+              "budget_amount": 3000,
+              "budget_type": "GRP"
+          }
+      ],
+      "budget_type": "GRP"
     }
   ],
   "comments": [
