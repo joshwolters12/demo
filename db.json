@@ -2,8 +2,10 @@
   "flightsets": [
     {
       "id": 1,
-      "name": "New Flight Set",
-      "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+      "name": "New Flight Set 1",
+      "description": "Nulla vitae elit libero",
+      "reference_id": null,
+      "is_template": false,
       "flights": [
           {
               "id": 1,
@@ -11,38 +13,66 @@
               "end_date": "2018-04-21T02:33:51.607Z",
               "budget_amount": 10000,
               "budget_type": "USD"
-          },
-          {
-              "id": 2,
-              "start_date": "2018-04-21T02:33:51.607Z",
-              "end_date": "2018-05-21T02:33:51.607Z",
-              "budget_amount": 10000,
-              "budget_type": "USD"
           }
       ],
-      "budget_type": "USD"
+      "budget_type": "USD",
+      "audit": {
+          "created": {
+              "by": {
+                  "id": 1,
+                  "first_name": "Kris",
+                  "last_name": "Dunn",
+                  "email": "kris.dunn@bulls.com"
+              },
+              "at": "2018-03-21T02:33:51.607Z"
+          },
+          "updated": {
+              "by": {
+                  "id": 1,
+                  "first_name": "Kris",
+                  "last_name": "Dunn",
+                  "email": "kris.dunn@bulls.com"
+              },
+              "at": "2018-03-21T02:33:51.607Z"
+          }
+      }
     },
     {
       "id": 2,
       "name": "New Flight Set 2",
       "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+      "reference_id": null,
+      "is_template": false,
       "flights": [
           {
               "id": 1,
-              "start_date": "2018-06-21T02:33:51.607Z",
+              "start_date": "2018-05-21T02:33:51.607Z",
               "end_date": "2018-07-21T02:33:51.607Z",
-              "budget_amount": 2000,
-              "budget_type": "GRP"
-          },
-          {
-              "id": 2,
-              "start_date": "2018-07-21T02:33:51.607Z",
-              "end_date": "2018-08-21T02:33:51.607Z",
-              "budget_amount": 3000,
+              "budget_amount": 20000,
               "budget_type": "GRP"
           }
       ],
-      "budget_type": "GRP"
+      "budget_type": "GRP",
+      "audit": {
+          "created": {
+              "by": {
+                  "id": 1,
+                  "first_name": "Lauri",
+                  "last_name": "Markannen",
+                  "email": "lauri@bulls.com"
+              },
+              "at": "2018-05-21T02:33:51.607Z"
+          },
+          "updated": {
+              "by": {
+                  "id": 1,
+                  "first_name": "Lauri",
+                  "last_name": "Markannen",
+                  "email": "lauri@bulls.com"
+              },
+              "at": "2018-05-21T02:33:51.607Z"
+          }
+      }
     }
   ],
   "segments": [{"name":"F_2_5", "type":"Demographic", "provider":"Nielsen", "size": 7620000, "isUniversal":true, "genderCode": "F", "minAge": 2, "maxAge":5},
