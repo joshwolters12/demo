@@ -8,12 +8,19 @@
       "is_template": false,
       "flights": [
           {
-              "id": 1,
-              "start_date": "2018-03-21T02:33:51.607Z",
-              "end_date": "2018-04-21T02:33:51.607Z",
-              "budget_amount": 10000,
-              "budget_type": "USD"
-          }
+            "id": 1,
+            "start_date": "2018-03-21T02:33:51.607Z",
+            "end_date": "2018-04-21T02:33:51.607Z",
+            "budget_amount": 10000,
+            "budget_type": "USD"
+          },
+          {
+            "id": 2,
+            "start_date": "2018-05-21T02:33:51.607Z",
+            "end_date": "2018-06-21T02:33:51.607Z",
+            "budget_amount": 20000,
+            "budget_type": "USD"
+        }
       ],
       "budget_type": "USD",
       "audit": {
@@ -45,11 +52,25 @@
       "is_template": false,
       "flights": [
           {
-              "id": 1,
-              "start_date": "2018-05-21T02:33:51.607Z",
-              "end_date": "2018-07-21T02:33:51.607Z",
-              "budget_amount": 20000,
-              "budget_type": "GRP"
+            "id": 1,
+            "start_date": "2018-05-21T02:33:51.607Z",
+            "end_date": "2018-07-21T02:33:51.607Z",
+            "budget_amount": 500,
+            "budget_type": "GRP"
+          },
+          {
+            "id": 2,
+            "start_date": "2018-08-21T02:33:51.607Z",
+            "end_date": "2018-09-21T02:33:51.607Z",
+            "budget_amount": 1000,
+            "budget_type": "GRP"
+          },
+          {
+            "id": 3,
+            "start_date": "2018-02-21T02:33:51.607Z",
+            "end_date": "2018-05-21T02:33:51.607Z",
+            "budget_amount": 300,
+            "budget_type": "GRP"
           }
       ],
       "budget_type": "GRP",
