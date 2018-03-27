@@ -182,6 +182,48 @@
             }
         ]
     }
-]
+  ],
+    "media_group": [
+        {"id": 0, "name": "first_media_group"},
+        {"id": 1, "name": "second_media_group"},
+        {"id": 2, "name": "third_media_group"},
+        {"i3": 3, "name": "fourth_media_group"},
+        {"id": 4, "name": "fifth_media_group"}
+    ],
+    "nielsen_network": [
+        {"id": 0, "name": "firstniel_sen_network"},
+        {"id": 1, "name": "second_nielsen_network"},
+        {"id": 2, "name": "third_nielsen_network"},
+        {"id": 3, "name": "fourth_nielsen_network"},
+        {"id": 4, "name": "fifth_nielsen_network"}
+    ],
+    "nielsen_program": [
+        {"id": 0, "name": "firstniel_sen_program"},
+        {"id": 1, "name": "second_nielsen_program"},
+        {"id": 2, "name": "third_nielsen_program"},
+        {"id": 3, "name": "fourth_nielsen_program"},
+        {"id": 4, "name": "fifth_nielsen_program"}
+    ],
+    "nielsen_category": [
+        {"id": 0, "name": "firstniels_en_category"},
+        {"id": 1, "name": "second_nielsen_category"},
+        {"id": 2, "name": "third_nielsen_category"},
+        {"id": 3, "name": "fourth_nielsen_category"},
+        {"id": 4, "name": "fifth_nielsen_category"}
+    ],
+    "nielsen_daypart": [
+        {"id": 0, "name": "firstniel_sen_daypart"},
+        {"id": 1, "name": "second_nielsen_daypart"},
+        {"id": 2, "name": "third_nielsen_daypart"},
+        {"id": 3, "name": "fourth_nielsen_daypart"},
+        {"id": 4, "name": "fifth_nielsen_daypart"}
+    ],
+    "day_of_week": [
+        {"id": 0, "name": "first_day_of_week"},
+        {"id": 1, "name": "second_day_of_week"},
+        {"id": 2, "name": "third_day_of_week"},
+        {"i3": 3, "name": "fourth_day_of_week"},
+        {"id": 4, "name": "fifth_day_of_week"}
+    ]
 }
 
