@@ -141,7 +141,7 @@
     },
     {
         "name": "Constraint 2",
-        "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+        "description": "Another description here",
         "constraints": [
             {
                 "type": "Include, Exclude",
