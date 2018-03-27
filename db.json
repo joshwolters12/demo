@@ -64,13 +64,6 @@
             "end_date": "2017-09-21T02:33:51.607Z",
             "budget_amount": 1000,
             "budget_type": "GRP"
-          },
-          {
-            "id": 3,
-            "start_date": "2017-02-21T02:33:51.607Z",
-            "end_date": "2017-05-21T02:33:51.607Z",
-            "budget_amount": 300,
-            "budget_type": "GRP"
           }
       ],
       "budget_type": "GRP",
@@ -163,67 +156,43 @@
                 }
             }
         ]
-    },
-    {
-        "name": "Constraint 3",
-        "description": "Nulla vitae elit libero, a pharetra augue",
-        "constraints": [
-            {
-                "type": "Include, Exclude",
-                "media_groups": {
-                    "items": [1, 2]
-                },
-                "nielsen_networks": {
-                    "items": [3, 4]
-                },
-                "nielsen_programs": {
-                    "items": [6, 7, 8]
-                }
-            }
-        ]
     }
   ],
     "media_group": [
         {"id": 0, "name": "first_media_group"},
         {"id": 1, "name": "second_media_group"},
         {"id": 2, "name": "third_media_group"},
-        {"i3": 3, "name": "fourth_media_group"},
-        {"id": 4, "name": "fifth_media_group"}
+        {"i3": 3, "name": "fourth_media_group"}
     ],
     "nielsen_network": [
         {"id": 0, "name": "firstniel_sen_network"},
         {"id": 1, "name": "second_nielsen_network"},
         {"id": 2, "name": "third_nielsen_network"},
-        {"id": 3, "name": "fourth_nielsen_network"},
-        {"id": 4, "name": "fifth_nielsen_network"}
+        {"id": 3, "name": "fourth_nielsen_network"}
     ],
     "nielsen_program": [
         {"id": 0, "name": "firstniel_sen_program"},
         {"id": 1, "name": "second_nielsen_program"},
         {"id": 2, "name": "third_nielsen_program"},
-        {"id": 3, "name": "fourth_nielsen_program"},
-        {"id": 4, "name": "fifth_nielsen_program"}
+        {"id": 3, "name": "fourth_nielsen_program"}
     ],
     "nielsen_category": [
         {"id": 0, "name": "firstniels_en_category"},
         {"id": 1, "name": "second_nielsen_category"},
         {"id": 2, "name": "third_nielsen_category"},
-        {"id": 3, "name": "fourth_nielsen_category"},
-        {"id": 4, "name": "fifth_nielsen_category"}
+        {"id": 3, "name": "fourth_nielsen_category"}
     ],
     "nielsen_daypart": [
         {"id": 0, "name": "firstniel_sen_daypart"},
         {"id": 1, "name": "second_nielsen_daypart"},
         {"id": 2, "name": "third_nielsen_daypart"},
-        {"id": 3, "name": "fourth_nielsen_daypart"},
-        {"id": 4, "name": "fifth_nielsen_daypart"}
+        {"id": 3, "name": "fourth_nielsen_daypart"}
     ],
     "day_of_week": [
         {"id": 0, "name": "first_day_of_week"},
         {"id": 1, "name": "second_day_of_week"},
         {"id": 2, "name": "third_day_of_week"},
-        {"i3": 3, "name": "fourth_day_of_week"},
-        {"id": 4, "name": "fifth_day_of_week"}
+        {"i3": 3, "name": "fourth_day_of_week"}
     ]
 }
 
