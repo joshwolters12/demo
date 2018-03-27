@@ -16,7 +16,7 @@
           },
           {
             "id": 2,
-            "start_date": "2017-05-21T02:33:51.607Z",
+            "start_date": "2017-05-21T02:33:51.607Z" ,
             "end_date": "2017-06-21T02:33:51.607Z",
             "budget_amount": 20000,
             "budget_type": "USD"
@@ -127,8 +127,61 @@
     {"name":"M_55_64", "type":"Demographic", "provider":"Nielsen", "size": 19450000, "isUniversal":true, "genderCode": "M", "minAge": 55, "maxAge":64},
     {"name":"M_65_999", "type":"Demographic", "provider":"Nielsen", "size": 21460000, "isUniversal":true, "genderCode": "M", "minAge": 65, "maxAge":999}
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "content_constraint_sets": [
+    {
+        "name": "Constraint 1",
+        "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+        "constraints": [
+            {
+                "type": "Include, Exclude",
+                "media_groups": {
+                    "items": [1, 2]
+                },
+                "nielsen_networks": {
+                    "items": [3, 4]
+                },
+                "nielsen_programs": {
+                    "items": [6, 7, 8]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Constraint 2",
+        "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+        "constraints": [
+            {
+                "type": "Include, Exclude",
+                "media_groups": {
+                    "items": [1, 2]
+                },
+                "nielsen_networks": {
+                    "items": [3, 4]
+                },
+                "nielsen_programs": {
+                    "items": [6, 7, 8]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Constraint 3",
+        "description": "Nulla vitae elit libero, a pharetra augue",
+        "constraints": [
+            {
+                "type": "Include, Exclude",
+                "media_groups": {
+                    "items": [1, 2]
+                },
+                "nielsen_networks": {
+                    "items": [3, 4]
+                },
+                "nielsen_programs": {
+                    "items": [6, 7, 8]
+                }
+            }
+        ]
+    }
+]
 }
 
