@@ -90,9 +90,6 @@
     }
   ],
   "segments": [{"name":"F_2_5", "type":"Demographic", "provider":"Nielsen", "size": 7620000, "isUniversal":true, "genderCode": "F", "minAge": 2, "maxAge":5},
-    {"name":"F_6_8", "type":"Demographic", "provider":"Nielsen", "size": 5730000, "isUniversal":true, "genderCode": "F", "minAge": 6, "maxAge": 8},
-    {"name":"F_9_11", "type":"Demographic", "provider":"Nielsen", "size": 5930000, "isUniversal":true, "genderCode": "F", "minAge": 9, "maxAge":11},
-    {"name":"F_12_14", "type":"Demographic", "provider":"Nielsen", "size": 5940000, "isUniversal":true, "genderCode": "F", "minAge": 12, "maxAge":14},
     {"name":"F_15_17", "type":"Demographic", "provider":"Nielsen", "size": 6030000, "isUniversal":true, "genderCode": "F", "minAge": 15, "maxAge":17},
     {"name":"F_18_20", "type":"Demographic", "provider":"Nielsen", "size": 6340000, "isUniversal":true, "genderCode": "F", "minAge": 18, "maxAge":20},
     {"name":"F_21_24", "type":"Demographic", "provider":"Nielsen", "size": 8010000, "isUniversal":true, "genderCode": "F", "minAge": 21, "maxAge":24},
@@ -104,10 +101,6 @@
     {"name":"F_50_54", "type":"Demographic", "provider":"Nielsen", "size": 10710000, "isUniversal":true, "genderCode": "F", "minAge": 50, "maxAge":54},
     {"name":"F_55_64", "type":"Demographic", "provider":"Nielsen", "size": 21070000, "isUniversal":true, "genderCode": "F", "minAge": 55, "maxAge":64},
     {"name":"F_65_999", "type":"Demographic", "provider":"Nielsen", "size": 26660000, "isUniversal":true, "genderCode": "F", "minAge": 65, "maxAge":999},
-    {"name":"M_2_5", "type":"Demographic", "provider":"Nielsen", "size": 7960000, "isUniversal":true, "genderCode": "M", "minAge": 2, "maxAge":5},
-    {"name":"M_6_8", "type":"Demographic", "provider":"Nielsen", "size": 5980000, "isUniversal":true, "genderCode": "M", "minAge": 6, "maxAge":8},
-    {"name":"M_9_11", "type":"Demographic", "provider":"Nielsen", "size": 6190000, "isUniversal":true, "genderCode": "M", "minAge": 9, "maxAge":11},
-    {"name":"M_12_14", "type":"Demographic", "provider":"Nielsen", "size": 6190000, "isUniversal":true, "genderCode": "M", "minAge": 12, "maxAge":14},
     {"name":"M_15_17", "type":"Demographic", "provider":"Nielsen", "size": 6260000, "isUniversal":true, "genderCode": "M", "minAge": 15,"maxAge": 17},
     {"name":"M_18_20", "type":"Demographic", "provider":"Nielsen", "size": 6490000, "isUniversal":true, "genderCode": "M", "minAge": 18, "maxAge":20},
     {"name":"M_21_24", "type":"Demographic", "provider":"Nielsen", "size": 8190000, "isUniversal":true, "genderCode": "M", "minAge": 21, "maxAge":24},
@@ -122,11 +115,11 @@
   ],
   "content_constraint_sets": [
     {
-        "name": "Constraint 1",
+        "name": "Constraint Set 1",
         "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
         "constraints": [
             {
-                "type": "Include, Exclude",
+                "type": "Exclude",
                 "media_groups": {
                     "items": [1, 2]
                 },
@@ -134,13 +127,25 @@
                     "items": [3, 4]
                 },
                 "nielsen_programs": {
-                    "items": [6, 7, 8]
+                    "items": [1, 2, 3]
+                }
+            },
+            {
+                "type": "Include",
+                "media_groups": {
+                    "items": [1, 2]
+                },
+                "nielsen_networks": {
+                    "items": [3, 4]
+                },
+                "nielsen_programs": {
+                    "items": [1, 2, 3]
                 }
             }
         ]
     },
     {
-        "name": "Constraint 2",
+        "name": "Constraint Set 2",
         "description": "Another description",
         "constraints": [
             {
