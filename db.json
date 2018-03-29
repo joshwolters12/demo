@@ -47,7 +47,7 @@
     {
       "id": 2,
       "name": "New Flight Set 2",
-      "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+      "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh",
       "reference_id": null,
       "is_template": false,
       "flights": [
@@ -89,7 +89,7 @@
       }
     }
   ],
-  "segments": [{"name":"F_2_5", "type":"Demographic", "provider":"Nielsen", "size": 7620000, "isUniversal":true, "genderCode": "F", "minAge": 2, "maxAge":5},
+  "segments": [
     {"name":"F_15_17", "type":"Demographic", "provider":"Nielsen", "size": 6030000, "isUniversal":true, "genderCode": "F", "minAge": 15, "maxAge":17},
     {"name":"F_18_20", "type":"Demographic", "provider":"Nielsen", "size": 6340000, "isUniversal":true, "genderCode": "F", "minAge": 18, "maxAge":20},
     {"name":"F_21_24", "type":"Demographic", "provider":"Nielsen", "size": 8010000, "isUniversal":true, "genderCode": "F", "minAge": 21, "maxAge":24},
@@ -117,7 +117,7 @@
     {
         "id": 1,
         "name": "Constraint Set 1",
-        "description": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+        "description": "Nulla vitae elit libero, a pharetra augue.",
         "constraints": [
             {
                 "type": "Exclude",
@@ -174,6 +174,36 @@
         ]
     }
   ],
+  "budget_constraint_sets": [
+    {
+        "id": 1,
+        "name": "Budget Constraint Set 1",
+        "description": "Nulla vitae elit libero",
+        "constraints": [
+            {
+                "type": "Min",
+                "media_groups": {
+                    "items": [1, 2]
+                },
+                "nielsen_networks": {
+                    "items": [3, 4]
+                },
+            },
+            {
+                "type": "Max",
+                "media_groups": {
+                    "items": [1, 2]
+                },
+                "nielsen_networks": {
+                    "items": [3, 4]
+                },
+                "nielsen_programs": {
+                    "items": [1, 2, 3]
+                }
+            }
+        ]
+    }
+],
   "constraints": {
         "media_groups": [
             {"id": 0, "name": "first_media_group"},
